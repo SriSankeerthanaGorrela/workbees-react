@@ -1,0 +1,68 @@
+import React from "react";
+import { AppBar,Toolbar,Box, Stack, Typography,Container,Button } from "@mui/material";
+
+function Header() {
+    return(
+        <AppBar position="static" bg color="white" >
+        
+             <Container maxWidth="lg">
+          <Toolbar sx={{display:'flex',alignItems: 'center',justifyContent: 'space-between', paddingY: 1}}>
+            <Box sx={{display:'flex',width:'167px',height:'45.1px',gap:'12px',alignItems:'center'}} >
+             <img
+             src="/images/logo.png"
+             alt="logo"
+             style={{width:'59px', height:'45.18px',marginBottom:10}}
+             />
+             
+             <Stack direction={"column"} gap={'2px'} width={'96px'} height={'38px'} >
+                <Typography sx={{width:"96px",height:'18px', fontFamily:"Figtree",fontWeight:"400",fontSize:"16px", lineHeight:'17.07px',color:'#000000'}} >
+                    Workbees
+                </Typography>
+                <Typography sx={{
+                    width:"96px",height:'18px', fontFamily:"Figtree",fontWeight:'600',fontSize:'16px',lineHeight:'17.07px',color:'#000000'
+                }}>
+                    Technologies
+                </Typography>
+             </Stack>
+            </Box>
+                    <Stack direction={"row"} spacing={4} sx={{ flexGrow: 1, justifyContent: 'center' }}>
+                        <Typography sx={{
+                            fontFamily:'Figtree',
+                            cursor: 'pointer',
+                            color: 'black',
+                            fontWeight: '500',
+                            lineHeight:'17.07px'
+                            
+                        }} >
+                          Development ⌄
+                          {/* <MdArrowForward/> */}
+                        </Typography>
+                        <Typography sx={{cursor:'pointer',fontSize:'16px',fontFamily:"Figtree",fontWeight:500,lineHeight:'17.07px',color:'black'}}>
+                            Our Product
+                        </Typography >
+                        <Typography sx={{cursor:'pointer',fontSize:'16px',fontFamily:"Figtree",fontWeight:500,lineHeight:'17.07px',color:'black'}}>
+                            About
+                        </Typography>
+                        
+                    </Stack>
+                    <Button variant="contained" sx={{
+                            backgroundColor: '#105BFF',
+                            color: 'white',
+                            borderRadius: '32px',
+                            // padding: '8px 20px',
+                            pt:'12px',
+                            pr:"24px",
+                            pb:'12px',
+                            pl:'24px',
+                            
+                            // fontWeight: 'bold',
+                            // textTransform: 'none',
+                            // '&:hover': { backgroundColor: '#0056b3' }
+                        }} >Contact Us</Button>
+            </Toolbar> 
+            </Container> 
+        </AppBar>
+    );
+    
+}
+export default Header;
