@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductsSection.css";
 
-const ProductsSection = () => {
+const ProductsSection  = () => {
   return (
     <div className="products-container">
       <div className="products-box">
@@ -48,5 +48,4 @@ const ProductsSection = () => {
     </div>
   );
 };
-
-export default ProductsSection;
+export default ProductsSection ;
