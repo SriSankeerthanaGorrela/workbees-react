@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
     <Industries/>
-    <Circular/>
+ 
     </div>
   );
 }
