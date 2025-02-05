@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar,Toolbar,Box, Stack, Typography,Container,Button } from "@mui/material";
-
+import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
 function Header() {
     return(
         <AppBar position="static" bg color="white" >
@@ -26,19 +26,33 @@ function Header() {
              </Stack>
             </Box>
                     <Stack direction={"row"} spacing={4} sx={{ flexGrow: 1, justifyContent: 'center' }}>
-                        <Typography sx={{
-                            fontFamily:'Figtree',
-                            cursor: 'pointer',
-                            color: 'black',
-                            fontWeight: '500',
-                            lineHeight:'17.07px'
-                            
-                        }} >
-                          Development ⌄
-                          {/* <MdArrowForward/> */}
+                    <Typography
+                        sx={{
+                            fontFamily: "Figtree",
+                            cursor: "pointer",
+                            color: "black",
+                            fontWeight: "500",
+                            lineHeight: "17.07px",
+                            width: "97px",
+                            height: "18px",
+                            display: "flex",        // Align text and icon in a row
+                            alignItems: "center",   // Vertically center the icon
+                        }}
+                        >
+                        Development
+                        <ExpandMoreOutlinedIcon
+                            sx={{
+                            width: "20px",       
+                            height: "20px",      
+                            marginLeft: "5px",   
+                            transform: "rotate(0deg)",  
+                            }}
+                        />
                         </Typography>
-                        <Typography sx={{cursor:'pointer',fontSize:'16px',fontFamily:"Figtree",fontWeight:500,lineHeight:'17.07px',color:'black'}}>
-                            Our Product
+
+
+                        <Typography sx={{cursor:'pointer',fontSize:'16px',fontFamily:"Figtree",fontWeight:500,lineHeight:'17.07px',color:'black',pl:'20px'}}>
+                            Our Products
                         </Typography >
                         <Typography sx={{cursor:'pointer',fontSize:'16px',fontFamily:"Figtree",fontWeight:500,lineHeight:'17.07px',color:'black'}}>
                             About
@@ -49,15 +63,15 @@ function Header() {
                             backgroundColor: '#105BFF',
                             color: 'white',
                             borderRadius: '32px',
-                            // padding: '8px 20px',
+                            
                             pt:'12px',
                             pr:"24px",
                             pb:'12px',
                             pl:'24px',
+                            width:'142px',
+                            height:'48px'
                             
-                            // fontWeight: 'bold',
-                            // textTransform: 'none',
-                            // '&:hover': { backgroundColor: '#0056b3' }
+                            
                         }} >Contact Us</Button>
             </Toolbar> 
             </Container> 
@@ -66,3 +80,4 @@ function Header() {
     
 }
 export default Header;
+
