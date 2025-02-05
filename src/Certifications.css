@@ -1,0 +1,46 @@
+.certifications-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 168px;
+    padding-left:168px;
+    height: 100vh;
+    background-color: #F8F8FB;
+    padding-top: 272px;
+  }
+  
+  .certifications-header {
+    width: 1031px;
+    height: 65px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+  
+  .certifications-description {
+    width: 756px;
+    height: 60px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .certificates {
+    display: flex;
+    gap: 24px;
+    width: 1031px;
+    height: 160px;
+  }
+  
+  .certificates img {
+    height: 180px;
+    width: 180px;
+    object-fit: contain;
+  }
+  

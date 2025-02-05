@@ -1,0 +1,357 @@
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #0047ff;
+  color: white;
+  
+}
+
+/* Left Content */
+.left-content {
+  width: 50%;
+  margin-left: 150px;
+  
+}
+
+.title {
+  width: 402px;
+  height: 38px;
+  top: 73px;
+  left: 152px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: #FFFFFF;
+}
+
+.description {
+  width: 414px;
+  height: 56px;
+  top: 130px;
+  left: 152px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  color:#FFFFFF ;
+}
+
+.features {
+
+  margin-top: 30px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.feature-heading{
+  width: 247px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+
+}
+.feature-description{
+  width: 247px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color:#FFFFFFAB ;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+/* Right Form */
+.right-form {
+  margin-right: 150px;
+  width: 550px;
+  height: 498px;
+  top: 62px;
+  left:707px;
+  border-radius: 8px;
+  background-color: white;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  gap: 16px;
+  color: black;
+}
+
+.form-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  width: 446px;
+  height: 17px;
+  color: #000000B2;
+  margin-bottom: 10px;
+}
+
+.form-heading {
+  width: 446px;
+  height: 43px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  color: #000000;
+}
+
+.appointment-form {
+  width: 444px;
+  height: 294px;
+  justify-content: space-between;
+  margin-left: -8px;
+}
+
+.input-group {
+  display: flex;
+  width: 464px;
+  height: 60px;
+  gap: 28px;
+  
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #F1F1F1;
+  border-radius: 15px;
+  font-size: 14px;
+  
+  background-color: #F1F1F1;
+  
+}
+
+textarea {
+  width: 444px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: #F1F1F1;
+  font-size: 14px;
+  font-weight: 500;
+  
+  
+}
+
+.submit-button {
+  width: 106px;
+  height: 34px;
+  border-radius: 1000px;
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  gap: 10px;
+  background-color: #1848FE;
+  border:#1848FE;
+  color:#FFFFFF;
+  margin-left: 350px;
+}
+
+.submit-button:hover {
+  background-color: #0033cc;
+}
+
+/* Footer Section */
+.footer-container {
+  background-color: black;
+  color: white;
+  
+  padding: 40px 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Footer Left */
+.footer-left {
+  width: 30%;
+  margin-left: 150px;
+  
+  
+
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.workbees-logo {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+}
+
+.workbees-heading {
+ width: 93px;
+ height: 24px;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 24px;
+ color:#FFFFFF;
+}
+
+.footer-description {
+  width: 269.18px;
+  height: 98px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  color:#B9B9B9CC;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  gap: 30px;
+  margin-right: 30px;
+  
+  
+  
+}
+
+.footer-links div h4 {
+  width: 140px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color:#FFFFFF;
+  margin-top: 17px;
+
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+
+
+
+}
+
+
+.footer-links ul li {
+  font-size: 14px;
+  font-weight: 500;
+  width: 140px;
+  height: 16px;
+  top: 44px;
+  line-height: 16.8px;
+  color: #B9B9B9CC;
+  padding-bottom: 10px;
+  
+
+  
+}
+
+/* Download Section */
+.footer-download {
+  width: 199px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 150px;
+  margin-top: -5px;
+}
+
+/* Stack buttons vertically */
+.download-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Button Styling */
+.download-button {
+  width: 131px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 8px 10px 8px 10px; /* Adjusted left padding */
+  color: #FFFFFF;
+  background-color: #1848FE;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 3px; /* Changed from 5px to bold (invalid value fixed) */
+  transition: background 0.3s;
+}
+
+.download-button:hover {
+  background-color: #0036cc;
+}
+
+/* Circular Arrow Icon */
+.arrow-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+/* PNG Arrow Styling */
+.arrow-circle img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content */
+  text-align: center;
+  margin-top: 50px;
+  width: 100%; /* Ensures full-width alignment */
+}
+
+.footer-divider {
+  width: 80%; /* Adjust width as needed */
+  height: 2px;
+  background-color: #565656;
+  border: none;
+  margin: 10px auto; /* Centers the line */
+}
+
+.footer-bottom p {
+  color: #B9B9B9;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+}
