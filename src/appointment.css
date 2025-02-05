@@ -15,7 +15,7 @@
   
 }
 
-.title {
+.left-content .title {
   width: 402px;
   height: 38px;
   top: 73px;
@@ -26,7 +26,7 @@
   color: #FFFFFF;
 }
 
-.description {
+.left-content .description {
   width: 414px;
   height: 56px;
   top: 130px;
