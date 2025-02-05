@@ -23,7 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 
-App.js
-App.css
+src/App.js
+src/App.css
 package-lock.json
 package.json
