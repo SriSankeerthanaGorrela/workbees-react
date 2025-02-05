@@ -6,7 +6,7 @@ function Header() {
         <AppBar position="static" bg color="white" >
         
              <Container maxWidth="lg">
-          <Toolbar sx={{display:'flex',alignItems: 'center',justifyContent: 'space-between', paddingY: 1}}>
+          <Toolbar sx={{display:'flex',alignItems: 'center',justifyContent: 'space-between'}}>
             <Box sx={{display:'flex',width:'167px',height:'45.1px',gap:'12px',alignItems:'center'}} >
              <img
              src="/images/logo.png"
