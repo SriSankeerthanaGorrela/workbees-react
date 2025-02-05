@@ -1,0 +1,247 @@
+/* Container styling with invisible scroll */
+.technology-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 168px;
+    padding-left:168px;
+    height: 100vh;
+    background-color: #F8F8FB;
+
+}
+
+.technology-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+}
+
+/* Title Styling: Technology Stack */
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'Figtree', sans-serif;
+    color: #000000;
+    width: 1038px;
+    height: 65px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+/* Description Styling */
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: 'Figtree', sans-serif;
+    color: #000000B2;
+    width: 756px;
+    height: 60px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Section Layout */
+.technology-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Web Technologies Section */
+.web-technologies {
+    width: 550px;
+    white-space: nowrap;
+    height: auto;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.web-technologies h2 {
+    border-bottom: 3px solid #DBE3EF;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.tech-categories {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px; /* Space between categories and list */    
+    margin-top: 50px;   
+}
+
+.category-item {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Figtree', sans-serif;
+    padding-right: 10px;
+    width: 140px;
+    height: 48px;
+    
+}
+
+
+
+
+
+/* Backend Technologies Section */
+.backend-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 350px;
+    margin-left: -10px;
+    margin-top: -50px;
+}
+
+.frontend-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 350px;
+    margin-left: 330px;
+    margin-top: -510px;
+}
+
+.technology-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    margin-bottom: -60px; /* Optional: adds spacing between rows */
+
+}
+
+.technology-item img {
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.technology-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -20px;
+}
+
+
+
+
+
+/* Mobile Technologies Section */
+.mobile-technologies {
+    width: 450px;
+    white-space: nowrap;
+    height: auto;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.mobile-technologies h2 {
+    border-bottom: 3px solid #DBE3EF;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.tech1-categories {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+
+.ios-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top:-48px ;
+}
+
+.cross-platform-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top:-138px;
+    margin-left: 220px;
+    width:350px;
+}
+
+.technology1-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    width: 80px;
+    margin-bottom: -60px; /* Optional: adds spacing between rows */
+
+}
+
+.technology1-item img {
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.technology1-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -20px;
+}
+
+
+
+
+.tech2-categories {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 240px;
+}
+
+.android-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top:-55px;
+    margin-left: 8px;
+    width:350px;
+}
+
+.technology2-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    width: 80px;
+    margin-bottom: -60px; /* Optional: adds spacing between rows */
+
+}
+
+.technology2-item img {
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.technology2-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -20px;
+}
