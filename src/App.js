@@ -5,6 +5,7 @@ import Circular from './Circular'
 import Slogan from './components/Slogan';
 import Header from './components/Header';
 import Technology1 from './components/Technology1';
+import Appointment from './Appointment';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Technology1/>
     <Industries/>
     <Circular/>
+    <Appointment/>
+    <Workbees/>
+    <Faq/>
   
     
     </div>
