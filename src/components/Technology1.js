@@ -6,7 +6,8 @@ import React from 'react';
 
 function Technology1(){
     return(
-        <Container sx={{height:'575px',marginTop:'60px'}}>
+        <Box sx={{backgroundColor:'#F8F8FB'}}>
+        <Container sx={{height:'575px'}}>
             <Box>
                 <Stack sx={{ }}>
                     <Typography  marginTop={2}  textAlign={'center'} border={'1px solid blue'} borderRadius='24px' marginLeft={55} marginRight={55} fontSize='18px'
@@ -82,6 +83,7 @@ function Technology1(){
 </Grid>
 
         </Container>
+    </Box>    
     );
 }
 export default Technology1;
