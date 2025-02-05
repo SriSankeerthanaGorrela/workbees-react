@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Industries from './Industries'
 import Circular from './Circular'
@@ -6,7 +6,8 @@ import Slogan from './components/Slogan';
 import Header from './components/Header';
 import Technology1 from './components/Technology1';
 import Appointment from './Appointment';
-
+import Workbees from './Workbees';
+import Faq from './Faq'
 function App() {
   return (
     <div>
@@ -15,10 +16,9 @@ function App() {
       <Technology1/>
     <Industries/>
     <Circular/>
-    <Appointment/>
     <Workbees/>
     <Faq/>
-  
+    <Appointment/>
     
     </div>
   );
