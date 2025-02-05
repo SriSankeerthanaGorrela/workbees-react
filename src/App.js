@@ -7,7 +7,6 @@ import Header from './components/Header';
 import Technology1 from './components/Technology1';
 import Appointment from './Appointment';
 
-
 function App() {
   return (
     <div>
@@ -19,7 +18,6 @@ function App() {
     <Appointment/>
     <Workbees/>
     <Faq/>
-    <Productssection/>
   
     
     </div>
