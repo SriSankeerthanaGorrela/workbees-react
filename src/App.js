@@ -4,7 +4,7 @@ import Industries from './Industries'
 import Circular from './Circular'
 import Slogan from './components/Slogan';
 import Header from './components/Header';
-import Technology1 from './components/Technology1';
+import Services from './components/Services';
 import Appointment from './Appointment';
 import ProductsSection from './ProductsSection1';
 import Technology from './Technology';
@@ -17,7 +17,7 @@ function App() {
     <div>
       <Header/>
       <Slogan/>
-      <Technology1/>
+      <Services/>
     <Industries/>
     <Circular/>
     <ProductsSection/>

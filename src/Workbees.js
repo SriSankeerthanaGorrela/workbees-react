@@ -4,7 +4,7 @@ import "./Workbees.css";
 const Workbees = () => {
   return (
     <div className="container">
-      {/* Left Side */}
+    
       <div className="left-section">
         <h1 className="heading">
           Building Exceptional Services with Collaboration
@@ -16,7 +16,7 @@ const Workbees = () => {
           <a href="#" className="more-link">more</a>
         </p>
 
-        {/* "We" and "To" Section */}
+        
         <div className="we-to-section">
           <div className="we-column">
             <span className="we-title">We</span>
@@ -30,7 +30,7 @@ const Workbees = () => {
           </div>
         </div>
 
-        {/* Logos */}
+       
         <div className="logos">
           <img src="/workbees-logo.png" alt="Workbees" />
           <img src="/balancers-logo.png" alt="Balancers" />
@@ -38,7 +38,7 @@ const Workbees = () => {
         </div>
       </div>
 
-      {/* Right Side */}
+      
       <div className="right-section">
         <div className="image-container">
           <img src="/ceo-image.png" alt="Samudra Varma" className="profile-image" />

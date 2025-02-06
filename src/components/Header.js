@@ -35,8 +35,8 @@ function Header() {
                             lineHeight: "17.07px",
                             width: "97px",
                             height: "18px",
-                            display: "flex",        // Align text and icon in a row
-                            alignItems: "center",   // Vertically center the icon
+                            display: "flex",       
+                            alignItems: "center",   
                         }}
                         >
                         Development

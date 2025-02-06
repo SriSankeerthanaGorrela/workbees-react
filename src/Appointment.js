@@ -4,9 +4,7 @@ import "./appointment.css";
 const Appointment = () => {
   return (
     <>
-      {/* Appointment Section */}
       <div className="appointment-container">
-        {/* Left Side Content */}
         <div className="left-content">
           <h1 className="title">Get Started with Workbees</h1>
           <p className="description">
@@ -60,7 +58,7 @@ const Appointment = () => {
           </div>
         </div>
 
-        {/* Right Side Form */}
+        
         <div className="right-form">
           <h3 className="form-title">GET IN TOUCH</h3>
           <h2 className="form-heading">Make an appointment</h2>
@@ -81,10 +79,10 @@ const Appointment = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
+      
       <footer className="footer-container">
         <div className="footer-content">
-          {/* Left Side - Logo and About */}
+         
           <div className="footer-left">
             <div className="logo-container">
               <img
@@ -109,7 +107,7 @@ const Appointment = () => {
             </div>
           </div>
 
-          {/* Center - Links */}
+         
           <div className="footer-links">
             <div>
               <h4>Explore</h4>
@@ -139,7 +137,7 @@ const Appointment = () => {
             </div>
           </div>
 
-          {/* Right Side - App Download */}
+          
 <div className="footer-download">
   <h4>Download our Apps</h4>
   <div className="download-buttons">

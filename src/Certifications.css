@@ -7,6 +7,8 @@
     height: 60vh;
     background-color: #F8F8FB;
     padding-top: 272px;
+
+
   }
   
   .certifications-header {
@@ -29,6 +31,7 @@
     line-height: 30px;
     color: #000000;
     margin-bottom: 40px;
+
   }
   
   .certificates {
@@ -37,6 +40,8 @@
     width: 131px;
     height: 160px;
   }
+  
+
   
   .certificates img {
     height: 160px;

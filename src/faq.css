@@ -1,4 +1,3 @@
-/* FAQ Section */
 .faq-section {
     width: 97%;
     margin: 40px auto;
@@ -9,7 +8,6 @@
     margin-bottom: 0;
 }
 
-/* FAQ Heading */
 .faq-heading {
     font-size: 2rem;
     font-weight: bold;
@@ -17,7 +15,6 @@
     margin-bottom: 40px;
 }
 
-/* FAQ Container */
 .faq-container {
     display: flex;
     flex-direction: column;
@@ -28,7 +25,6 @@
     border-radius: 12px;
 }
 
-/* FAQ Items */
 .faq-item {
     background: white;
     border-radius: 10px;
@@ -40,13 +36,11 @@
     border: 2px solid transparent;
 }
 
-/* Active Question */
 .faq-item.active {
     border: 2px solid #4c4cff;
     
 }
 
-/* FAQ Question */
 .faq-question {
     display: flex;
     justify-content: space-between;
@@ -55,13 +49,11 @@
     padding-bottom: 8px;
 }
 
-/* Toggle Icon */
 .icon {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-/* FAQ Answer */
 .faq-answer {
     margin-top: 10px;
     font-size: 15px;

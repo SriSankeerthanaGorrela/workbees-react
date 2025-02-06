@@ -1,5 +1,4 @@
-/* Container styling with invisible scroll */
-.technology-container {
+.Header {
     display: flex;
     flex-direction: column;
     padding-right: 215px;
@@ -9,11 +8,10 @@
 
 }
 
-.technology-container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+.Header::-webkit-scrollbar {
+    display: none; 
 }
 
-/* Title Styling: Technology Stack */
 .title {
     font-size: 48px;
     font-weight: 700;
@@ -26,7 +24,7 @@
     margin-bottom: 0px;
 }
 
-/* Description Styling */
+
 .description {
     font-size: 20px;
     font-weight: 500;
@@ -39,8 +37,8 @@
     margin-bottom: 40px;
 }
 
-/* Section Layout */
-.technology-sections {
+
+.technologies{
     display: flex;
     justify-content: space-between;
 }
@@ -49,7 +47,7 @@
 
 
 
-/* Web Technologies Section */
+
 .web-technologies {
     width: 550px;
     white-space: nowrap;
@@ -66,15 +64,55 @@
     width: 80%;
 }
 
-.tech-categories {
+.web-categories {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin-bottom: 20px; /* Space between categories and list */    
+    margin-bottom: 20px; 
     margin-top: 50px;   
 }
 
-.category-item {
+.category1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Figtree', sans-serif;
+    padding-right: 10px;
+    width: 140px;
+    height: 48px;
+    
+}
+.category2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Figtree', sans-serif;
+    padding-right: 10px;
+    width: 140px;
+    height: 48px;
+    
+}
+.category3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Figtree', sans-serif;
+    padding-right: 10px;
+    width: 140px;
+    height: 48px;
+    
+}
+.category4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Figtree', sans-serif;
+    padding-right: 10px;
+    width: 140px;
+    height: 48px;
+    
+}
+.category5 {
     font-size: 18px;
     font-weight: 600;
     color: #000000;
@@ -89,7 +127,6 @@
 
 
 
-/* Backend Technologies Section */
 .backend-technologies {
     display: flex;
     flex-wrap: wrap;
@@ -108,24 +145,49 @@
     margin-top: -510px;
 }
 
-.technology-item {
+.backend-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 120px;
-    margin-bottom: -60px; /* Optional: adds spacing between rows */
+    margin-bottom: -60px; 
 
 }
 
-.technology-item img {
+.backend-items img {
     width: 200px;
     height: 200px;
 
     
 }
 
-.technology-item span {
+.backend-items span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -20px;
+}
+
+
+.frontend-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    margin-bottom: -60px; 
+
+}
+
+.frontend-items img {
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.frontend-items  span {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
@@ -135,8 +197,6 @@
 
 
 
-
-/* Mobile Technologies Section */
 .mobile-technologies {
     width: 450px;
     white-space: nowrap;
@@ -154,7 +214,7 @@
     width: 100%;
 }
 
-.tech1-categories {
+.mobile-categories {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -179,24 +239,48 @@
     width:350px;
 }
 
-.technology1-item {
+.ios-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
     width: 80px;
-    margin-bottom: -60px; /* Optional: adds spacing between rows */
+    margin-bottom: -60px; 
 
 }
 
-.technology1-item img {
+.ios-items img {
     width: 200px;
     height: 200px;
 
     
 }
 
-.technology1-item span {
+.ios-items span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: -20px;
+}
+
+.cross-platform-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    width: 80px;
+    margin-bottom: -60px; 
+
+}
+
+.cross-platform-items img {
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.cross-platform-items span {
     font-size: 14px;
     font-weight: 600;
     color: #000000;
@@ -205,8 +289,7 @@
 
 
 
-
-.tech2-categories {
+.android-category {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -222,24 +305,24 @@
     width:350px;
 }
 
-.technology2-item {
+.android-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
     width: 80px;
-    margin-bottom: -60px; /* Optional: adds spacing between rows */
+    margin-bottom: -60px; 
 
 }
 
-.technology2-item img {
+.android-items img {
     width: 200px;
     height: 200px;
 
     
 }
 
-.technology2-item span {
+.android-items span {
     font-size: 14px;
     font-weight: 600;
     color: #000000;

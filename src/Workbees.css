@@ -3,7 +3,6 @@
 * {
   font-family: 'Figtree', sans-serif;
 }
-/* Container Layout */
 .container {
   display: flex;
   flex-direction: column;
@@ -11,24 +10,24 @@
   align-items: center;
   padding: 40px;
   background-color: #f8f8fB;
-  height: 100%; /* Full screen height */
-  width: 100%; /* Decrease the width */
-  margin: 0 auto; /* Center the container */
+  height: 100%; 
+  width: 100%;
+  margin: 0 auto; 
   margin-top:0px ;
 }
 
-/* Responsive Layout */
+
 @media (min-width: 768px) {
   .container {
       flex-direction: row;
       align-items: flex-start;
       height: auto; 
       max-width: 94%;
-       /* Further reduce width on larger screens */
+       
   }
 }
 
-  /* Left Section */
+
   .left-section {
     width: 100%;
     max-width: 450px;
@@ -63,24 +62,24 @@
     text-decoration: underline;
   }
   
-  /* We-To Section */
+  
 .we-to-section {
   width: fixed(194px);
   height: fixed(142px);
   top: 377px;
   left: 160px;
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
-  gap: 30px; /* Reduce space between columns */
+  justify-content: flex-start; 
+  gap: 30px; 
   margin-top: 50px;
 }
   
-  /* Adjust Columns */
+  
 .we-column,
 .to-column {
     display: flex;
     flex-direction: column;
-    width: auto; /* Allow columns to size dynamically */
+    width: auto; 
 }
   
   .we-title,
@@ -113,7 +112,7 @@
 
   
   
-  /* Logos */
+ 
   .logos {
     display: flex;
     gap: 20px;
@@ -128,7 +127,7 @@
     border-radius: 14.01px;
   }
   
-  /* Right Section */
+  
   .right-section {
     width: 100%;
     max-width: 500px;
@@ -147,7 +146,7 @@
     max-width: 450px;
 }
   
-  /* Profile Image */
+  
   .profile-image {
     width: 480px;
     height: 700px;
@@ -156,7 +155,7 @@
   
 .image-caption {
   position: absolute;
-  bottom: 10px; /* Adjust the position inside the image */
+  bottom: 10px; 
   left: 70%;
   transform: translateX(-50%);
    margin-bottom: 13px;
@@ -165,6 +164,6 @@
   border-radius: 5px;
   text-align: center;
   font-size: 1.1rem;
-  width: 80%; /* Adjust width */
+  width: 80%; 
   max-width: 90%;
 }

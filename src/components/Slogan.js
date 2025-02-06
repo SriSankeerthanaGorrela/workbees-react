@@ -53,7 +53,7 @@ function Slogan() {
               >
                 Clients
               </Typography>
-              {/* <ArrowRightAltIcon sx={{ color: "green", transform: "rotate(45deg)" }} /> */}
+              
             </Box>
           </Box>
         </Stack>
@@ -93,7 +93,7 @@ function Slogan() {
                 gap: "0px"
               }}
             >
-               {/* <ArrowRightAltIcon sx={{ color: "green", transform: "rotate(-155deg)" }} /> */}
+              
               <Typography
                 sx={{
                   fontSize: "12px",

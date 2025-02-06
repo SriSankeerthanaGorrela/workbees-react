@@ -53,7 +53,7 @@ function Circular() {
         }}
       />
       
-      {/* 1st Image - Right side (3 o'clock) */}
+      
 <Box
   component="div"
   sx={{
@@ -117,7 +117,7 @@ function Circular() {
 </Box>
 
 
-      {/* 2nd Image - Bottom right (4:30 o'clock) */}
+      
 <Box
   component="div"
   sx={{
@@ -184,7 +184,7 @@ function Circular() {
      
 
 
- {/* 3rd Image - Bottom (6 o'clock) */}
+ 
 <Box
   component="div"
   sx={{
@@ -249,7 +249,7 @@ function Circular() {
 
 
 
-      {/* 4th Image - Bottom left (7:30 o'clock) */}
+      
 <Box
   component="div"
   sx={{
@@ -315,7 +315,7 @@ function Circular() {
 
 
 
-      {/* 5th Image - Left side (9 o'clock) */}
+      
       <Box
   component="div"
   sx={{
@@ -379,7 +379,7 @@ function Circular() {
 </Box>
 
 
-      {/* 6th Image - Top left (10:30 o'clock) */}
+  
       <Box
   component="div"
   sx={{
@@ -443,7 +443,7 @@ function Circular() {
 </Box>
 
 
-      {/* 7th Image - Top (12 o'clock) */}
+   
       <Box
   component="div"
   sx={{
@@ -505,7 +505,6 @@ function Circular() {
   </Box>
 </Box>
 
-      {/* 8th Image - Top right (1:30 o'clock) */}
      
 <Box
   component="div"

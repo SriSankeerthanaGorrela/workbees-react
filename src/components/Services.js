@@ -4,7 +4,7 @@ import { Grid } from "@mui/system";
 import React from 'react';
 
 
-function Technology1(){
+function Services(){
     return(
         <Box sx={{backgroundColor:'#F8F8FB'}}>
         <Container sx={{height:'575px'}}>
@@ -20,7 +20,7 @@ function Technology1(){
                         paddingTop:'7px',
                         paddingBottom:'7px',
                         // WebkitTextStroke: '1px', 
-                        WebkitTextStrokeColor: '#0000FF', // Border color (Blue)
+                        WebkitTextStrokeColor: '#0000FF', 
                         }}>
                        Service and Expertise
                     </Typography>
@@ -86,4 +86,4 @@ function Technology1(){
     </Box>    
     );
 }
-export default Technology1;
+export default Services;
