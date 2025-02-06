@@ -155,8 +155,7 @@ const Appointment = () => {
     </button>
   </div>
 </div>
-
-        </div>
+</div>
 
         <div className="footer-bottom">
         <hr className="footer-divider" />
