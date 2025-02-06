@@ -105,7 +105,7 @@ function Industries(){
                 </Typography>
               </Grid2>
                 <Typography variant="body2" color='#00000099' fontFamily='Figtree' lineHeight='30px'fontSize='20px' >
-                Our software solutions empower healthcare organizations to streamline operations, enhance patient care, and ensure compliance with industry regulations.            </Typography>
+                Our software solutions empower healthcare organizations to streamline operations, enhance patient care, and ensure compliance with industry regulations.</Typography>
                     </CardContent>
                 </Card>
             </Grid2>
@@ -131,7 +131,7 @@ function Industries(){
                 </Typography>
               </Grid2>
                 <Typography variant="body2" color='#00000099' fontFamily='Figtree' lineHeight='30px'fontSize='20px' >
-                With our cutting-edge software, we revolutionize the travel industry by providing innovative solutions for booking, reservations, and itinerary management, sensuring a seamless travel experience.           </Typography>
+                With our cutting-edge software, we revolutionize the travel industry by providing innovative solutions for booking, reservations, and itinerary management, sensuring a seamless travel experience.</Typography>
                     </CardContent>
                 </Card>
             </Grid2>
