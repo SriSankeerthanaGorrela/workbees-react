@@ -6,7 +6,8 @@ import React from "react";
 
 function Slogan() {
   return (
-    <Container maxWidth="lg" sx={{ textAlign: "center", mt: 6, fontFamily: "Figtree" }}>
+    <Box sx={{ backgroundColor: "#F8F8FB", minHeight: "90vh"}}> 
+    <Container maxWidth="lg" sx={{ textAlign: "center", mt: 6, fontFamily: "Figtree",paddingTop:'50px' }}>
       <Stack spacing={3} alignItems="center">
         <Stack direction="row" spacing={1} alignItems="center">
           <Typography variant="h4" fontWeight="700" fontSize="48px" fontFamily="Figtree">
@@ -28,14 +29,14 @@ function Slogan() {
             <Box
               sx={{
                 position: "absolute",
-                top: "60px",
-                right: "-80px",
+                top: "50px",
+                right: "-70px",
                 display: "flex",
                 alignItems: "center",
-                gap: "4px"
+                gap: "1px"
               }}
             >
-               <ArrowRightAltIcon sx={{ marginBottom:"20px",color: "green", transform: "rotate(-155deg)" }} />
+               <ArrowRightAltIcon sx={{ marginBottom:"20px",color: "green", transform: "rotate(-155deg)",height:'29px',width:'29px',marginRight:'-6px' }} />
               <Typography
                 sx={{
                   fontSize: "12px",
@@ -46,7 +47,8 @@ function Slogan() {
                   background: "green",
                   color: "white",
                   px: 1,
-                  py: 0.2
+                  py: 0.2,
+          
                 }}
               >
                 Clients
@@ -85,7 +87,7 @@ function Slogan() {
               sx={{
                 position: "absolute",
                 top: "280px",
-                right: "800px",
+                left: "510px",
                 display: "flex",
                 alignItems: "center",
                 gap: "0px"
@@ -108,7 +110,7 @@ function Slogan() {
               >
                 Clients
               </Typography>
-              <ArrowRightAltIcon sx={{ marginBottom:"0px",color:"#261D8C", transform: "rotate(-55deg)",marginLeft:'130px'}}/>
+              <ArrowRightAltIcon sx={{ marginBottom:"30px",color:"#261D8C", transform: "rotate(-55deg)",height:'29px',width:'29px',marginLeft:'-6px'}}/>
             </Box>
           </Box>
 
@@ -141,6 +143,7 @@ function Slogan() {
         </Grid>
       </Grid>
     </Container>
+  </Box>  
   );
 }
 

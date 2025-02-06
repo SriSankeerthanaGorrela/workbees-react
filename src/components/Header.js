@@ -3,11 +3,11 @@ import { AppBar,Toolbar,Box, Stack, Typography,Container,Button } from "@mui/mat
 import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
 function Header() {
     return(
-        <AppBar position="static" bg color="white" >
+        <AppBar position="static" sx={{ backgroundColor: "white", boxShadow: "none" ,height:'35px'}}>
         
              <Container maxWidth="lg">
           <Toolbar sx={{display:'flex',alignItems: 'center',justifyContent: 'space-between'}}>
-            <Box sx={{display:'flex',width:'167px',height:'45.1px',gap:'12px',alignItems:'center'}} >
+            <Box sx={{display:'flex',width:'167px',height:'90px',gap:'12px',alignItems:'center'}} >
              <img
              src="/images/logo.png"
              alt="logo"
