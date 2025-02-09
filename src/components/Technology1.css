@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center the child elements */
+    text-align: center;
+    padding: 80px 20px;
+    background: #fafafa;
+    border: 1px solid red;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    width: 100%; /* Limit max width */
+    text-align: center;
+    margin-bottom: 30px; /* Add spacing below */
+}
+.service-expertise {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -40px;
+    border-radius: 24px; /* Ensures rounded corners */
+
+    /* Text Gradient */
+    background: linear-gradient(90deg, #261D8C, #105BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Gradient Border */
+    position: relative;
+}
+  
+.service-expertise::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 24px; /* Ensures the border stays rounded */
+    padding: 2px; /* Creates space for border */
+    background: linear-gradient(93.02deg, #261D8C 20.32%, #105BFF 95.42%);
+    -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    -webkit-mask-composite: xor;
+    display: inline-block;
+    mask-composite: exclude;
+    pointer-events: none; /* Prevents interference */
+}
+
+
+/* Title and description styling */
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 24px;
+    color: #111;
+    /* display: inline-block; */
+    margin-left: 40px;
+    padding-left: 100px;
+   
+}
+
+.description {
+    font-size: 10px;
+    margin-left: 200px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 100%;
+    color: #000000B2;
+    margin-top: 16px;
+   
+   
+}
+
+/* Grid container should be a flexbox row */
+.grid-container {
+    display: flex;
+    flex-direction: row; /* Ensure left (text) and right (image) are in one line */
+    justify-content: space-between; /* Push items apart */
+    align-items: center;
+    width: 80%; /* Ensure it doesn't shrink */
+    max-width: 1200px;
+  
+    margin-left: 80px;
+}
+
+/* Left side text block */
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Center the icon and text */
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    width: 50%;
+    margin-top: 85px;
+
+}
+
+/* Icon on top */
+.icon {
+    width: 58px;
+    height: 52px;
+    margin-bottom: 15px;
+   
+
+    
+}
+
+/* Text below icon */
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    width: 60%;
+   
+    margin-left: 40px;
+ 
+}
+
+/* Image should stay on the right */
+.image {
+    width: 50%;
+    max-width: 488px;
+    height: auto;
+    border-radius: 10px;
+}
+ 

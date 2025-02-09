@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+<<<<<<< HEAD
+=======
+
+# src/App.js
+# src/App.css
+# package-lock.json
+# package.json
+>>>>>>> main
