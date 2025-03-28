@@ -1,15 +1,13 @@
 import React from "react";
-import "./appointment.css";
+import styles from "./appointment.module.css";
 
 const Appointment = () => {
   return (
     <>
-      {/* Appointment Section */}
-      <div className="appointment-container">
-        {/* Left Side Content */}
-        <div className="left-content">
-          <h1 className="title">Get Started with Workbees</h1>
-          <p className="description">
+      <div className={styles.appointmentcontainer}>
+        <div className={styles.leftcontent}>
+          <h1 className={styles.title}>Get Started with Workbees</h1>
+          <p className={styles.description}>
             Join thousands of happy customers who trust our car maintenance and
             cleaning services with Balancers. We provide professional, scheduled
             services to keep your vehicle in pristine condition. If you’re a
@@ -17,42 +15,42 @@ const Appointment = () => {
             with Runer.
           </p>
 
-          <div className="features">
-            <div className="feature-item">
+          <div className={styles.features}>
+            <div className={styles.featureitem}>
               <img
                 src="professional-service.png"
                 alt="Professional Service"
-                className="feature-icon"
+                className={styles.featureicon}
               />
               <div>
-                <h3 className="feature-heading">100% Professional Service</h3>
-                <p className="feature-description">
+                <h3 className={styles.featureheading}>100% Professional Service</h3>
+                <p className={styles.featuredescription}>
                   Delivered by trained and verified professionals.
                 </p>
               </div>
             </div>
-            <div className="feature-item">
+            <div className={styles.featureitem}>
               <img
                 src="quality-assured.png"
                 alt="Quality Assured"
-                className="feature-icon"
+                className={styles.featureicon}
               />
               <div>
-                <h3 className="feature-heading">Quality Assured</h3>
-                <p className="feature-description">
+                <h3 className={styles.featureheading}>Quality Assured</h3>
+                <p className={styles.featuredescription}>
                   Our services are backed by a dedicated quality check process.
                 </p>
               </div>
             </div>
-            <div className="feature-item">
+            <div className={styles.featureitem}>
               <img
                 src="reliable-convenient.png"
                 alt="Reliable & Convenient"
-                className="feature-icon"
+                className={styles.featureicon}
               />
               <div>
-                <h3 className="feature-heading">Reliable & Convenient</h3>
-                <p className="feature-description">
+                <h3 className={styles.featureheading}>Reliable & Convenient</h3>
+                <p className={styles.featuredescription}>
                   Schedule and manage services easily through our apps.
                 </p>
               </div>
@@ -60,13 +58,13 @@ const Appointment = () => {
           </div>
         </div>
 
-        {/* Right Side Form */}
-        <div className="right-form">
-          <h3 className="form-title">GET IN TOUCH</h3>
-          <h2 className="form-heading">Make an appointment</h2>
+        
+        <div className={styles.rightform}>
+          <h3 className={styles.formtitle}>GET IN TOUCH</h3>
+          <h2 className={styles.formheading}>Make an appointment</h2>
 
-          <form className="appointment-form">
-            <div className="input-group">
+          <form className={styles.appointmentform}>
+            <div className={styles.inputgroup}>
               <input type="text" placeholder="First Name" />
               <input type="text" placeholder="Last Name" />
             </div>
@@ -74,34 +72,34 @@ const Appointment = () => {
             <input type="email" placeholder="Email address" />
             <textarea placeholder="Message"></textarea>
 
-            <button type="submit" className="submit-button">
+            <button type="submit" className={styles.submitbutton}>
               Submit
             </button>
           </form>
         </div>
       </div>
 
-      {/* Footer Section */}
-      <footer className="footer-container">
-        <div className="footer-content">
-          {/* Left Side - Logo and About */}
-          <div className="footer-left">
-            <div className="logo-container">
+      
+      <footer className={styles.footercontainer}>
+        <div className={styles.footercontent}>
+         
+          <div className={styles.footerleft}>
+            <div className={styles.logocontainer}>
               <img
                 src="workbees1-logo.png"
                 alt="Workbees Logo"
-                className="workbees-logo"
+                className={styles.workbeeslogo}
               />
-              <h2 className="workbees-heading">Workbees</h2>
+              <h2 className={styles.workbeesheading}>Workbees</h2>
             </div>
-            <p className="footer-description">
+            <p className={styles.footerdescription}>
               We are your trusted partner in providing professional vehicle and
               home maintenance services. Our services include scheduled car
               cleaning, car care products, and comprehensive home cleaning
               solutions. We also offer cutting-edge referral marketing tools for
               businesses with our Runer app.
             </p>
-            <div className="social-icons">
+            <div className={styles.socialicons}>
               <img src="instagram.png" alt="Instagram" />
               <img src="facebook.png" alt="Facebook" />
               <img src="twitter.png" alt="Twitter" />
@@ -109,8 +107,8 @@ const Appointment = () => {
             </div>
           </div>
 
-          {/* Center - Links */}
-          <div className="footer-links">
+         
+          <div className={styles.footerlinks}>
             <div>
               <h4>Explore</h4>
               <ul>
@@ -139,29 +137,28 @@ const Appointment = () => {
             </div>
           </div>
 
-          {/* Right Side - App Download */}
-<div className="footer-download">
+          
+<div className={styles.footerdownload}>
   <h4>Download our Apps</h4>
-  <div className="download-buttons">
-    <button className="download-button">
+  <div className={styles.downloadbuttons}>
+    <button className={styles.downloadbutton}>
       For Balancers
-      <span className="arrow-circle">
+      <span className={styles.arrowcircle}>
         <img src="/arrow-icon.png" alt="Download Arrow" />
       </span>
     </button>
-    <button className="download-button">
+    <button className={styles.downloadbutton}>
       For Balancers
-      <span className="arrow-circle">
+      <span className={styles.arrowcircle}>
         <img src="/arrow-icon.png" alt="Download Arrow" />
       </span>
     </button>
   </div>
 </div>
+</div>
 
-        </div>
-
-        <div className="footer-bottom">
-        <hr className="footer-divider" />
+        <div className={styles.footerbottom}>
+        <hr className={styles.footerdivider} />
           <p>Copyright © Workbees. All rights reserved</p>
         </div>
       </footer>

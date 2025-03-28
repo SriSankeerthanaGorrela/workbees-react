@@ -1,0 +1,422 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .textContainer {
+    position: relative;
+    max-width: 800px;
+  }
+  
+  h1, h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    background-color: rgba(100, 100, 255, 0.2);
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
+  .success {
+    background-color: rgba(0, 255, 100, 0.3);
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
+  .labelClients, .labelWorkbees {
+    position: absolute;
+    font-size: 0.9rem;
+    background: green;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .labelClients {
+    top: -10px;
+    right: -30px;
+  }
+  
+  .labelWorkbees {
+    bottom: -10px;
+    left: 50px;
+  }
+  
+  .arrowClients, .arrowWorkbees {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: green;
+  }
+  
+  .arrowClients {
+    top: -5px;
+    right: -40px;
+    transform: rotate(30deg);
+  }
+  
+  .arrowWorkbees {
+    bottom: -5px;
+    left: 40px;
+    transform: rotate(-30deg);
+  }
+  
+  .description {
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .imageContainer {
+    margin-top: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+   */
+
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    
+  
+  }
+  
+  .textContainer {
+    position: relative;
+    margin-right: 200px;
+    
+    width: 1200px;
+  
+  }
+  
+  h1, h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    line-height: 25px;
+  }
+  .h2{
+    margin-right: 70px;
+  }
+  
+  .success {
+    background-color: #3F9F1B33; /* Light Green */
+    padding: 2px;
+    border: 1.5px solid #3F9F1B
+  }
+  
+  .highlight {
+    background-color: #A09AE366; /* Light Blue */
+    padding: 2px;
+    
+    border: 1.5px solid #261D8C;
+  
+  }
+  
+  .arrowbox {
+    position: absolute;
+    top: 62px;
+    left: 1033px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    color: green;
+    transform: rotate(-155deg);
+    margin-top: 10px;
+    font-size: small;
+   
+  }
+  
+  .clientslabel {
+    font-size: 12px;
+    background: rgba(63, 159, 27, 1);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1.5px solid green;
+    margin-bottom: -35px;
+    margin-left: -6px;
+   
+  }
+  
+  /* Adjustments for the second arrow */
+  .arrowboxright1 {
+    position: absolute;
+    top: 157px;
+    margin-left: 305px;
+    
+  }
+  
+  .arrow1 {
+    position: absolute;
+    display: inline-block;
+    top: -20px;
+    transform: rotate(-55deg);
+    color: #261D8C; 
+    font-size: small;
+    left: 75px;
+    
+  }
+  
+  .clientslabel1 {
+    position: relative;
+    top:-5px;
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    padding: 3px 5px;
+    border-radius: 4px;
+    border: 1.5px solid #261D8C;
+    background: #261D8C;;
+    
+    margin-left: 20px;  
+  }
+  .description {
+    width:693px;
+    height: 68px;
+    text-align: center;
+    line-height: 34px;
+    font-style: 20px;
+    margin-top: 80px;
+    font-size: 20px;
+    
+    color: #000000B2;
+    margin-left: 300px;
+  }
+  
+  .imageContainer {
+    margin-top: 30px;
+    
+    margin-left: 150px;
+  }
+  
+  .image {
+    width: 1046px;
+    height: 285px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width:1070px)
+
+{
+.textContainer{
+  margin-left: 180px;
+  
+}
+
+  h1,h2{
+    
+    font-size: 2.5rem;
+  }
+  .arrowbox {
+    top: 55px;
+    left: 963px;
+  }
+  .arrowboxright1 {
+   
+    top: 137px;
+    margin-left: 370px;
+    
+  }
+.imageContainer{
+ 
+  margin-left: 70px;
+}
+  .image{
+    width:750px;
+    height:300px;
+  }
+  .description{
+    margin-top: 60px;
+  }
+
+}
+@media (max-width:768px){
+  .container{
+   
+    margin-left: 20px;
+    width:100%;
+  }
+  .textContainer{
+    width:650px;
+    
+    margin-left: 200px;
+  }
+  .h1 {
+    width: 550px;
+    font-size: 48px;
+    text-align:left;
+    padding-left: 0px;
+    line-height: 1.2;
+
+}
+
+.h2 {
+    font-size: 48px; 
+    text-align:left;
+    width: 520px;
+    padding-left: 0px;
+    margin-top: 0px;
+    line-height: 1.2;
+}
+.success {
+  background-color: #3F9F1B33; 
+  padding: 0px;
+  border: 1.5px solid #3F9F1B;
+ 
+}
+
+.highlight {
+  background-color: #A09AE366; 
+  padding: 0px;
+  
+  border: 1.5px solid #261D8C;
+
+}
+.arrowbox{
+  top:135px;
+  left: 400px;
+}
+
+.arrow1{
+  top:120px;
+  left:-150px;
+  right:200px;
+}
+.clientslabel1{
+  top:135px;
+  right:200px;
+}
+.arrowboxright1{
+    top:115px;
+    left:40px;
+    
+}
+.description {
+  width:550px;
+  height: 72px;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 0px;
+  
+  color: #000000B2;
+  
+
+}
+.imageContainer{
+  margin-left: 0px;
+  
+}
+.image{
+  width:500px;
+  height:200px;
+ margin-left: 0px;
+  margin-top:30px;
+  padding-left: 0px;
+  margin-right: 200px;
+
+ 
+}
+}
+
+
+@media (max-width: 480px) {
+  .container{
+    margin-left: 20px;
+    
+  }
+    .textContainer{
+      width:361px;
+      margin-left: 220px;
+    }
+  
+  .h1 {
+      width: 430px;
+      
+      text-align:left;
+      padding-left: 0px;
+      line-height: 1.2;
+
+  }
+
+  .h2 {
+      font-size: 36px; 
+      text-align:left;
+      width: 380px;
+      padding-left: 0px;
+      margin-top: 20px;
+      line-height: 1.2;
+  }
+  .success {
+    background-color: #3F9F1B33; 
+    padding: 0px;
+    border: 1.5px solid #3F9F1B;
+   
+  }
+  
+  .highlight {
+    background-color: #A09AE366;
+    padding: 0px;
+    
+    border: 1.5px solid #261D8C;
+  
+  }
+  .arrowbox{
+    top:95px;
+    left: 300px;
+  }
+  
+  .arrow1{
+    top:120px;
+    left:-150px;
+    right:200px;
+  }
+  .clientslabel1{
+    top:135px;
+    right:200px;
+  }
+  .arrowboxright1{
+      top:60px
+      
+  }
+  .description {
+    width:356px;
+    height: 72px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 0px;
+    
+    color: #000000B2;
+    
+
+  }
+  .imageContainer{
+    margin-left: 0px;
+  }
+  .image{
+    width:350px;
+    height:150px;
+   margin-left: 0px;
+    margin-top:5px;
+    
+  }}

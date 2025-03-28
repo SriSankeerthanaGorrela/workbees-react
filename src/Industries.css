@@ -1,0 +1,118 @@
+.industries-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Industry title - Adjust font sizes for different screens */
+  .industries-title {
+    font-weight: 700;
+    text-align: center;
+    font-family: Figtree;
+    padding-top: 30px;
+  }
+  
+  /* Industry Grid - Responsive */
+  .industries-grid {
+    display: grid;
+    gap: 60px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Industry Card - Base Style */
+  .industry-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Industry Image */
+  .industry-image {
+    width: 80px;
+    height: 60px;
+    margin-bottom: 5px;
+  }
+  
+  /* Industry Title */
+  .industry-title {
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  /* Industry Description */
+  .industry-description {
+    color: #00000099;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  
+  /* ✅ Small Screens (Phones: ≤480px) - Single Column, Smaller Font */
+  @media (max-width: 480px) {
+    .industries-title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .industries-grid {
+      grid-template-columns: 1fr;
+    }
+    .industry-card {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+    }
+    .industry-title {
+      font-size: 1.2rem;
+    }
+    .industry-description {
+      font-size: 14px;
+    }
+  }
+  
+  /* ✅ Medium Screens (Tablets: 481px - 1024px) - Two Columns */
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .industries-title {
+      font-size: 36px;
+      line-height: 44px;
+    }
+    .industries-grid {
+      grid-template-columns: repeat(2, 300px);
+      gap:60px
+    }
+    .industry-card {
+      width: 300px;
+      height: 300px;
+    }
+    .industry-title {
+      font-size: 1.5rem;
+    }
+    .industry-description {
+      font-size: 16px;
+    }
+  }
+  
+  /* ✅ Large Screens (Laptops & Desktops: >1024px) - Two Columns, Larger Font */
+  @media (min-width: 1025px) {
+    .industries-title {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    .industries-grid {
+      grid-template-columns: repeat(2, 500px);
+      gap:30px;
+     
+    }
+    .industry-card {
+      width: 400px;
+      height: 300px;
+      margin-bottom: 40px;
+    }
+    .industry-title {
+      font-size: 1.8rem;
+    }
+    .industry-description {
+      font-size: 18px;
+    }
+  }

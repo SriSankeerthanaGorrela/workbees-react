@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #fdfafa;
+  
+}
+header {
+  background: #111111;
+  color: rgb(247, 245, 245);
+  padding: 20px 0px;
+  border:2px solid red;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(221, 206, 225);
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #353536;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* 🔹 Layout (Main & Sidebar) */
+.container {
+  border:2px solid green;
+  
+  
+  width: 80%;
+  margin: 40px auto;
+}
+
+main {
+  width: 66%;
+  padding: 30px;
+  background: rgb(18, 17, 17);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 50px;
+}
+article {
+  margin-bottom: 20px;
+  
+}
+
+article h2 {
+  color: #e7ebef;
+}
+
+/* 🔹 Sidebar */
+aside {
+  width: 30%;
+  padding: 20px;
+  background: #13304e;
+  border-radius: 8px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+  color: #e9ecef;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin: 10px 0;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #f3eded;
+}
+
+aside ul li a:hover {
+  color: #021323;
+}
+
+/* 🔹 Footer */
+footer {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding:10px;
+  margin-top: -30px;
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  main, aside {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
